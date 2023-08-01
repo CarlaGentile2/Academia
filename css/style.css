@@ -1,0 +1,170 @@
+
+@font-face {
+    font-family: AlexanderLetter;
+    src: url(../css/AlexanderLetter.otf);
+}
+@font-face {
+    font-family: BebasRegular;
+    src: url(../css/BebasRegular.otf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../css/RobotoRegular.ttf);
+}
+.logo{
+    margin-top: 4rem;
+    margin-bottom: -3rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 4rem;
+}
+.logoppal{
+    margin-top: -3rem;
+    margin-left: 3rem;
+    width: 150px;
+    height: 150px;
+}
+.navbar{
+    margin-top: 6rem;
+    color: aliceblue;
+    background-color: #09ddeb ;
+    font-family: Roboto;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ingreso{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+.superpuesta{
+    position: absolute;
+    top: 17.7rem;
+    left: 5rem;
+}
+.superpuesta2{
+    color: white;
+    font-family: AlexanderLetter;
+    font-size: 200px;
+    position: absolute;
+    top:25%;
+    left: 50%;
+}
+.superpuesta3{
+    color: white;
+    font-family: BebasRegular;
+    font-size: 75px;
+    position: absolute;
+    top: 40%;
+    left: 46.5%;
+}
+.superpuesta4{
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+    position: absolute;
+    top: 55%;
+    left: 44.1%;
+    padding-right: 150px;
+}
+.superpuesta5{
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+    position: absolute;
+    top: 65%;
+    left: 50.8%;
+}
+.parrafo1{
+    font-family: BebasRegular;
+    font-size: x-large;
+    font-size: 2rem;
+    text-align: center;
+}
+.contenedor2{
+    text-align: center;
+}
+.presentacion{
+    font-family: Roboto;
+    font-size: 30px;
+}
+.tarjetas1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Roboto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aula{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.superpuesto1{
+    position: absolute;
+    bottom: -25rem;
+    left: 15rem;
+    font-family: BebasRegular;
+    color: white;
+    font-size: 65px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+     ;
+}
+.superpuesto2{
+    position: absolute;
+    bottom: -33rem;
+    left: 18rem;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+
+}
+.dudas{
+   text-align: center;
+}
+.form1{
+    position: absolute;
+    bottom: -38rem;
+    right: 20rem;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: left;
+}
+.containter{
+    display: flex;
+    justify-content: center;
+}
+.tarjetas2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Roboto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.rs{
+    position: absolute;
+    bottom: -98rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3rem;
+    align-items: center;
+}
+.info{
+    margin: right 8rem;
+    display: flex;
+    flex-direction: row;
+}

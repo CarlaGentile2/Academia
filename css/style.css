@@ -44,7 +44,7 @@
 }
 .superpuesta{
     position: absolute;
-    top: 17.7rem;
+    top: 17rem;
     left: 5rem;
 }
 .superpuesta2{
@@ -70,7 +70,7 @@
     position: absolute;
     top: 55%;
     left: 44.1%;
-    padding-right: 150px;
+    
 }
 .superpuesta5{
     color: white;
@@ -86,8 +86,8 @@
     font-size: 2rem;
     text-align: center;
 }
-.contenedor2{
-    text-align: center;
+.contenedor2{ 
+    text-align: center;   
 }
 .presentacion{
     font-family: Roboto;
@@ -161,7 +161,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 3rem;
-    align-items: center;
+    align-items: flex-end;
 }
 .info{
     margin: right 8rem;

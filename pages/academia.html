@@ -4,89 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carla Gentile - Nail Academy</title>
-    <link rel="shortcut icon" href="../img/logo.PNG">
+    <link rel="shortcut icon" href="../img/logo.PNG"> 
      <link rel="stylesheet" href="../css/style.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
+<style>
+    ul{
+        list-style: none;
+    }
+</style>
 <body>
+
     <header>
+
     <!-- Logos -->
-    <div class="contenedor1">
-        <div class="logo">
-    <img src="../img/logo2.png" alt="logo academia" class="logoppal">
-    <img src="../img/facebook (1).png" alt="facebook">
-    <img src="../img/instagram (3).png" alt="instagram">
-    <img src="../img/llamada.png" alt="telefono">
-    <img src="../img/email.png" alt="email">
-</div>
-</div>
-    <!-- Nav Bar -->
-    <nav class="navbar">
-            <a href="../index.html">Inicio</a>
-            <a href="./sobremi.html">Sobre Mi</a>
-            <a href="./academia.html"> Academia</a>
-            <a href="./servicios.html">Servicios</a>
-            <a href="./contacto.html">Contacto</a>
+<ul class="d-flex justify-content-around align-items-center">
+    <li><img src="../img/logo2.png" alt="logo academia" class="logoppal"></li>
+    <li><img src="../img/facebook (1).png" alt="facebook"></li>
+    <li><img src="../img/instagram (3).png" alt="instagram"></li>
+    <li><img src="../img/llamada.png" alt="telefono"></li>
+    <li><img src="../img/email.png" alt="email"></li>
 </ul>
-<a class="ingreso" href="./pages/ingresar.html">Ingresar/Registrarse</a>
-</nav>
+
+    <!-- Nav Bar -->
+<ul class="d-flex justify-content-around align-items-center">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="./sobremi.html">Sobre Mi</a></li>
+    <li><a href="./academia.html">Academia</a></li>
+    <li><a href="./servicios.html">Servicios</a></li>
+    <li><a href="./contacto.html">Contacto</a></li>
+    <li><a class="ingreso" href="../ingresar.html">Ingresar/Registrarse</a></li>
+</ul>
+
 </header>
+
 <main>
-    <!-- Banner 1 -->
-    <div class="contenedor2">
-        <img src="../img/otrobanner.png" alt="bannercolores" width="100%" >
-        <img src="../img/miasf2.png" alt="Fotocarla" class="superpuesta">
-        <h1 class="superpuesta2">Academia Online</h1>
-        <h2 class="superpuesta3">Formacion para Profesionales</h2>
-        <p class="superpuesta4">El lugar donde vas a poder adquirir todas las herramientas y conocimientos necesarios para desarrollarte como profesional de las uñas.
-            <div class="superpuesta5">¡Te invito a que juntos llevemos tus habilidades a otro nivel!
-            </div>  
-            </p>
-            <div class="container">
-        <div class="lead">
-            <p>Si queres iniciarte en el mundo de las uñas o deseas ampliar tus conocimientos, tenemos mas de 10 cursos disponibles para vos. Los mismos estan divididos en segmentos de partes teoricas y practicas. De esta manera, facilitamos el proceso educativo, brindanote todas las herramientas y la informacion que necesitas para ser un profesional de excelencia.</p>
-        </div>
+
+<!-- Banner 1 -->
+<div class="contenedor1" class="row">
+    <img class="mifoto" class="col-4" src="../img/miasf2.png" alt="Fotocarla">
+    <div class="texto1" class="col-8" class="d-flex justify-content-center align-items-center">
+        <h1 class="titulo">Academia</h1>
+        <h2 class="subtitulo">Cursos Presenciales y Online</h2>
+        <p class="parrafo1">Iniciales - Intermedios - Avanzados - Especializaciones
+            <br>
+            Carrera Tecnico Porfesional - Carrera Master Instructor</p>
+        <p class="parrafo2">¡Lleva tus habilidades a otro nivel!
+        </p>
     </div>
 </div>
-<div>
-    Acceso inmediato.
-    Emicion de certificados al finalizar la formación.
-    Aprende desde cualquier parte del mundo a tu ritmo.
+<br>
+
+<!--Presentacion -->
+<div class="container text-center">
+    <div class="presentacion">
+        <p>Si queres iniciarte en el mundo de las uñas o deseas ampliar tus conocimientos, tenemos mas de 10 cursos disponibles para vos. Los mismos estan divididos en segmentos de partes teoricas y practicas. De esta manera, facilitamos el proceso educativo, brindanote todas las herramientas y la informacion que necesitas para ser un profesional de excelencia.
+    </p>
+</div>
+<br>
+
+<!-- Tarjetas 1 -->
+<ul class="row text-center">
+    <li class="col-12 col-md-4 col-lg-4" class="box1">Acceso inmediato</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">Emision de certificados al finalizar</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">Aprende desde donde estes a tu ritmo</li>
+</ul>
+<br>
+
+
+<!-- Cursos online -->
+<div class="d-flex justify-content-around">
+<div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Curso Manicuria Combinada + Capping + Esmaltado Perfecto</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Curso Manicuria Rusa + Capping + Esmaltado Perfecto</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Curso Capping en Todas sus Formas+ Esmaltado Perfecto</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 </div>
 
-<div>
-    1000+ Alumnos graduados
-    3000+ Horas de cursos
-    12+ años de experiencia
-</div>
+<div class="d-flex justify-content-around">
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 </div>
+<br>
+<br>
+
+<!-- Tarjetas 2 -->
+<ul class="row text-center">
+    <li class="col-12 col-md-4 col-lg-4" class="box1">1000+ Alumnos graduados</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">3000+ Horas de cursos</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">13+ años de experiencia</li>
+</ul>
+<br>
+<br>
+
 </main>
-<footer>
-    <!-- Banner3 -->
-    <div class="contenedor4">
-        <img src="../img/otrobanner.png" alt="bannercolores2" width="100%" height="200px">
-        <div class="rs">
-            <img src="../img/pequefacebook.png" alt="pequeface">
-            <h5 class="info">Carla Gentile</h5>
-            <img src="../img/peuqeinstagram.png" alt="pequeinsta">
-            <h5 class="info">Carla Gentile Nail Designer</h5>
-            <img src="../img/pequellamada.png" alt="pequellam">
-            <h5 class="info">+54 11 21647147</h5>
-            <img src="../img/pequeemail.png" alt="pequemail">
-            <h5 class="info">Carlagentile.educador@gmail.com</h5>
-            </div>
+<footer class="mt-5">
+
+<!-- Banner3 -->
+    <div class="contenedor3" >
+        <ul class="d-flex justify-content-around ">
+            <li>Carla Gentile <img src="../img/pequefacebook.png" alt="pequeface"></li>
+            <li>Carla Gentile Nail Designer <img src="../img/peuqeinstagram.png" alt="pequeinsta"></li>
+            <li>+54 11 21647147 <img src="../img/pequellamada.png" alt="pequellam"></li>
+            <li>Carlagentile.educador@gmail.com <img src="../img/pequeemail.png" alt="pequemail"></li>
+        </ul>
+        <div class="bottom-footer">
+            <p>© Copyright 2023. "Academia de Porfesionales" by Carla Gentile. All rights reserved</p>
         </div>
-
     </div>
-
+    
 </footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
-
-
+    
+    
 
 </html>

@@ -27,86 +27,58 @@
     width: 150px;
     height: 150px;
 }
-.navbar{
-    margin-top: 6rem;
-    color: aliceblue;
-    background-color: #09ddeb ;
-    font-family: Roboto;
-    font-size: xx-large;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.ingreso{
-    display: flex; 
-    flex-direction: row; 
-    justify-content: flex-end;
+.contenedor1{
+    background-image: url(../img/otrobanner.png);
+    background-repeat: no-repeat;
 }
 .superpuesta{
     position: absolute;
     top: 17rem;
     left: 5rem;
 }
-.superpuesta2{
+.titulo{
     color: white;
     font-family: AlexanderLetter;
-    font-size: 200px;
+    font-size: 165px;
     position: absolute;
-    top:25%;
-    left: 50%;
+    top:35%;
+    left: 48%;
 }
-.superpuesta3{
+.subtitulo{
     color: white;
     font-family: BebasRegular;
-    font-size: 75px;
-    position: absolute;
-    top: 40%;
-    left: 46.5%;
-}
-.superpuesta4{
-    color: white;
-    font-family: Roboto;
-    font-size: 25px;
+    font-size: 55px;
     position: absolute;
     top: 55%;
-    left: 44.1%;
-    
+    left: 47%;
 }
-.superpuesta5{
+.parrafo1{
     color: white;
     font-family: Roboto;
     font-size: 25px;
     position: absolute;
-    top: 65%;
-    left: 50.8%;
+    top: 70%;
+    left: 40.5%;
 }
-.parrafo1{
-    font-family: BebasRegular;
-    font-size: x-large;
-    font-size: 2rem;
+.parrafo2{
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+.texto1{
     text-align: center;
 }
-.contenedor2{ 
-    text-align: center;   
-}
-.presentacion{
+.box1{
     font-family: Roboto;
-    font-size: 30px;
 }
-.tarjetas1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: Roboto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.contenedor2{
+    background-image: url(../img/escritoriogenerico2.png);
+    background-repeat: no-repeat;
 }
-.aula{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.superpuesto1{
+.titulo1{
     position: absolute;
     bottom: -25rem;
     left: 15rem;
@@ -115,9 +87,8 @@
     font-size: 65px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
-     ;
 }
-.superpuesto2{
+.subtitulo2{
     position: absolute;
     bottom: -33rem;
     left: 18rem;
@@ -126,45 +97,16 @@
     font-size: 30px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
-
 }
-.dudas{
-   text-align: center;
+.contenedor3{
+    background-image: url(../img/otrobannerinvertido.png);
+    background-repeat: no-repeat;
+    padding: 2rem;
 }
-.form1{
-    position: absolute;
-    bottom: -38rem;
-    right: 20rem;
+.presentacion{
     font-family: Roboto;
-    color: white;
-    font-size: 30px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    text-align: left;
+    font-size: 20px;
 }
-.containter{
-    display: flex;
-    justify-content: center;
-}
-.tarjetas2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.card{
     font-family: Roboto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.rs{
-    position: absolute;
-    bottom: -98rem;
-    right: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 3rem;
-    align-items: flex-end;
-}
-.info{
-    margin: right 8rem;
-    display: flex;
-    flex-direction: row;
 }

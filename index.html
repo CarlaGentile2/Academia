@@ -9,91 +9,130 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
+<style>
+    ul{
+        list-style: none;
+    }
+</style>
 <body>
-    <header>
-    <!-- Logos -->
-    <div class="contenedor1" class="img-fluid">
-        <div class="logo">
-    <img src="./img/logo2.png" alt="logo academia" class="logoppal">
-    <img src="./img/facebook (1).png" alt="facebook">
-    <img src="./img/instagram (3).png" alt="instagram">
-    <img src="./img/llamada.png" alt="telefono">
-    <img src="./img/email.png" alt="email">
-</div>
-</div>
-    <!-- Nav Bar -->
-    <nav class="navbar">
-            <a href="./index.html">Inicio</a>
-            <a href="./pages/sobremi.html">Sobre Mi</a>
-            <a href="./pages/academia.html"> Academia</a>
-            <a href="./pages/servicios.html">Servicios</a>
-            <a href="./pages/contacto.html">Contacto</a>
 
+    <header>
+
+    <!-- Logos -->
+<ul class="d-flex justify-content-around align-items-center">
+    <li><img src="./img/logo2.png" alt="logo academia" class="logoppal"></li>
+    <li><img src="./img/facebook (1).png" alt="facebook"></li>
+    <li><img src="./img/instagram (3).png" alt="instagram"></li>
+    <li><img src="./img/llamada.png" alt="telefono"></li>
+    <li><img src="./img/email.png" alt="email"></li>
 </ul>
-<a class="ingreso" href="./pages/ingresar.html">Ingresar/Registrarse</a>
-</nav>
+
+    <!-- Nav Bar -->
+<ul class="d-flex justify-content-around align-items-center">
+    <li><a href="./index.html">Inicio</a></li>
+    <li><a href="./pages/sobremi.html">Sobre Mi</a></li>
+    <li><a href="./pages/academia.html">Academia</a></li>
+    <li><a href="./pages/servicios.html">Servicios</a></li>
+    <li><a href="./pages/contacto.html">Contacto</a></li>
+    <li><a class="ingreso" href="./pages/ingresar.html">Ingresar/Registrarse</a></li>
+</ul>
+
 </header>
+
 <main>
+
 <!-- Banner 1 -->
-<div class="contenedor2" class="img-fluid">
-    <img src="./img/otrobanner.png" alt="bannercolores" width="100%" >
-    <img src="./img/miasf2.png" alt="Fotocarla" class="superpuesta">
-    <h1 class="superpuesta2">Academia Online</h1>
-    <h2 class="superpuesta3">Formacion para Profesionales</h2>
-    <p class="superpuesta4">El lugar donde vas a poder adquirir todas las herramientas y conocimientos necesarios para desarrollarte como profesional de las uñas.
-        <div class="superpuesta5">¡Te invito a que juntos llevemos tus habilidades a otro nivel!
-        </div>  
+<div class="contenedor1" class="row">
+    <img class="mifoto" class="col-4" src="./img/miasf2.png" alt="Fotocarla">
+    <div class="texto1" class="col-8" class="d-flex justify-content-center align-items-center">
+        <h1 class="titulo">Academia Online</h1>
+        <h2 class="subtitulo">Formacion para Profesionales</h2>
+        <p class="parrafo1">El lugar donde vas a poder adquirir todas las herramientas y conocimientos necesarios
+        para desarrollarte como profesional de las uñas</p>
+        <p class="parrafo2">¡Te invito a que juntos llevemos tus habilidades a otro nivel!
         </p>
-        <div class="container">
-            <div>
-            <h3>¡Hola, soy Carla! Preparate para vivir una experiencia unica.
-                <div>Si sos alumno: Una vez registrado, vas a poder disfrutar de una plataforma con facil acceso a los cursos que hayas adquirido, los que finalizaste y tus certificados. Tambien obtendras descuentos en proximos lanzamientos y ofertas unicas.
-                    <div>Si sos cliente: Una vez registrado, vas a tener acceso al calendario para visualizar tus citas y realizar modificaciones de fechas/ señas o cancelaciones de las mimas. </div>
-                </div></h3>
-            </div>
-        </div>
-    <!-- Destacado -->
-    <div class="tarjetas1">
-        <h4 class="box1">Todos los Niveles</h4>
-        <h4 class="box2">Seguimiento y Correcciones Personalizado</h4>
-        <h4 class="box3">Certificado al Finalizar</h4>
-    </div>
-    <!-- Banner 2 -->
-    <div class="contenedor3" class="img-fluid">
-       <div class="aula"> <img src="./img/escritoriogenerico2.png" alt="AulaRandom" width="100%" height="500px">
-        <div class="dudas">
-            <h3 class="superpuesto1">Por consultas
-                <div>no dudes en
-                contactarte</h3>
-                <div class="superpuesto2">
-                    <h6>Para mi es importante poder guiarte en la
-                        <div>seleccion de la formacion que mas se ajuste a tus necesidades
-                            <div>y acompañarte en cada paso de tu crecimiento profesional.</h6>
-                            </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
-            <div class="form1">
-                <div>
-                    <input type="name" placeholder="Tu Nombre">
-                    <div class="form2">
-                        <input type="email" placeholder="E-mail">
-                        <div>
-                            <input type="number" placeholder="Telefono">
-                            <div class="msj">
-                                <textarea placeholder="¿En que puedo ayudarte?" cols="40" rows="5"></textarea>
-                                <div class="send">
-                                    <input type="submit" value="Enviar">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<br>
+
+<!-- Beneficios -->
+<p class="container text-center" mt-5>
+    ¡Bienvenido! Preparate para vivir una experiencia unica.
+    <br>Si sos alumno: Una vez registrado, vas a poder disfrutar de una plataforma con facil acceso a los cursos que hayas adquirido, los que finalizaste y tus certificados. Tambien obtendras descuentos en proximos lanzamientos y ofertas unicas.
+    <br>Si sos cliente: Una vez registrado, vas a tener acceso al calendario para visualizar tus citas y realizar modificaciones de fechas/ señas o cancelaciones de las mimas.
+</p>
+<br>
+<br>
+
+<!-- Tarjetas 1 -->
+<ul class="row text-center">
+    <li class="col-12 col-md-4 col-lg-4" class="box1">Cursos todos los Niveles</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">Servicios en salon</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">Asesoramiento personalizado</li>
+</ul>
+<br>
+<br>
+
+<!-- Banner 2 -->
+ <div class="contenedor2" class="row">
+    <div class="texto1" class="col-4" class="d-flex justify-content-center align-items-center">
+        <h3 class="titulo1">Por consultas no dudes en contactarte</h3>
+        <h4 class="subtitulo1">Para mi es importante poder guiarte en la seleccion de la formacion que mas se ajuste a tus necesidades y acompañarte en cada paso de tu crecimiento profesional.</h4>
+    </div>
+
+<!-- Formulario -->
+    <div container class="col-8">
+    </div class="row justify-content-center">
+<form class="row g-3">
+    <div class="col-md-2">
+      <label for="inputname" class="form-label">Tu Nombre</label>
+      <input type="name" class="form-control" id="inputname">
+    </div>
+    <div class="col-md-2">
+      <label for="inputnumber" class="form-label">Telefono</label>
+      <input type="number" class="form-control" id="inputnumber">
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-4">
+      <label for="inputemail" class="form-label">E-mail</label>
+      <input type="text" class="form-control" id="inputemail">
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Consulta sobre:</label>
+      <select id="inputState" class="form-select">
+        <option selected>Cursos Online</option>
+        <option>Cursos presenciales</option>
+        <option>Cursos personalizados</option>
+        <option>Cursos para academias/ invitaciones</option>
+        <option>Servicios en salon</option>
+        <option>Otras consultas</option>
+      </select>
+    </div>
+    <div class="col-md-8"></div>
+    <div class="col-md-4">
+        <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <div class="col-12"></div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+</div>
         </div>
     </div>
+<br>
+<br>
+    <!-- Tarjetas 2 -->
+<ul class="row text-center">
+    <li class="col-12 col-md-4 col-lg-4" class="box1">+1000 Alumnos Graduados</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">+2000 Horas de Clase</li>
+    <li class="col-12 col-md-4 col-lg-4" class="box1">+13 Años de Experiencia</li>
+</ul>
+<br>
+<br>
+
 <!-- Carrousel -->
 <div class="container" class="img-fluid">
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -124,33 +163,25 @@
       </div>
     </div>
   </div>
-    <!-- Destacado -->
-    <div class="tarjetas2">
-        <h4 class="box1">+1000 Alumnos Graduados</h4>
-        <h4 class="box2">+2000 Horas de Clase</h4>
-        <h4 class="box3">+12 Años de Experiencia</h4>
-    </div>
-</main>
-    <footer>
-        <!-- Banner3 -->
-        <div class="contenedor4" class="img-fluid">
-            <img src="./img/otrobanner.png" alt="bannercolores2" width="100%" height="200px">
-            <div class="rs">
-                <ul>
-                <li><img src="./img/pequefacebook.png" alt="pequeface">
-                <h5 class="info">Carla Gentile</h5></li>
-                <li><img src="./img/peuqeinstagram.png" alt="pequeinsta">
-                <h5 class="info">Carla Gentile Nail Designer</h5></li>
-                <li><img src="./img/pequellamada.png" alt="pequellam">
-                <h5 class="info">+54 11 21647147</h5></li>
-                <li><img src="./img/pequeemail.png" alt="pequemail">
-                <h5 class="info">Carlagentile.educador@gmail.com</h5></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
 
+</main>
+
+<footer class="mt-5">
+
+<!-- Banner3 -->
+<div class="contenedor3" >
+    <ul class="d-flex justify-content-around ">
+        <li>Carla Gentile <img src="./img/pequefacebook.png" alt="pequeface"></li>
+        <li>Carla Gentile Nail Designer <img src="./img/peuqeinstagram.png" alt="pequeinsta"></li>
+        <li>+54 11 21647147 <img src="./img/pequellamada.png" alt="pequellam"></li>
+        <li>Carlagentile.educador@gmail.com <img src="./img/pequeemail.png" alt="pequemail"></li>
+    </ul>
+    <div class="bottom-footer">
+        <p>© Copyright 2023. "Academia de Porfesionales" by Carla Gentile. All rights reserved</p>
+    </div>
+</div>
+
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>

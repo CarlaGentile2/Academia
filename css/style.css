@@ -11,30 +11,9 @@
     font-family: Roboto;
     src: url(../css/RobotoRegular.ttf);
 }
-.logo{
-    margin-top: 4rem;
-    margin-bottom: -3rem;
-    margin-right: 20rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: auto;
-    height: 4rem;
-}
-.logoppal{
-    margin-top: -3rem;
-    margin-left: 3rem;
-    width: 150px;
-    height: 150px;
-}
 .contenedor1{
     background-image: url(../img/otrobanner.png);
     background-repeat: no-repeat;
-}
-.superpuesta{
-    position: absolute;
-    top: 17rem;
-    left: 5rem;
 }
 .titulo{
     color: white;
@@ -88,7 +67,7 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
 }
-.subtitulo2{
+.subtitulo1{
     position: absolute;
     bottom: -33rem;
     left: 18rem;

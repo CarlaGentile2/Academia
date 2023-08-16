@@ -1,14 +1,14 @@
 
 @font-face {
-    font-family: AlexanderLetter;
+    font-family: "AlexanderLetter";
     src: url(../css/AlexanderLetter.otf);
 }
 @font-face {
-    font-family: BebasRegular;
+    font-family: "BebasRegular";
     src: url(../css/BebasRegular.otf);
 }
 @font-face {
-    font-family: Roboto;
+    font-family: "Roboto";
     src: url(../css/RobotoRegular.ttf);
 }
 .contenedor1{
@@ -17,7 +17,7 @@
 }
 .titulo{
     color: white;
-    font-family: AlexanderLetter;
+    font-family: "AlexanderLetter";
     font-size: 165px;
     position: absolute;
     top:35%;
@@ -25,7 +25,7 @@
 }
 .subtitulo{
     color: white;
-    font-family: BebasRegular;
+    font-family: "BebasRegular";
     font-size: 55px;
     position: absolute;
     top: 55%;
@@ -33,7 +33,7 @@
 }
 .parrafo1{
     color: white;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 25px;
     position: absolute;
     top: 70%;
@@ -41,7 +41,7 @@
 }
 .parrafo2{
     color: white;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 25px;
     position: absolute;
     top: 90%;
@@ -51,7 +51,7 @@
     text-align: center;
 }
 .box1{
-    font-family: Roboto;
+    font-family: "Roboto";
 }
 .contenedor2{
     background-image: url(../img/escritoriogenerico2.png);
@@ -61,7 +61,7 @@
     position: absolute;
     bottom: -25rem;
     left: 15rem;
-    font-family: BebasRegular;
+    font-family: "BebasRegular";
     color: white;
     font-size: 65px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -71,7 +71,7 @@
     position: absolute;
     bottom: -33rem;
     left: 18rem;
-    font-family: Roboto;
+    font-family: "Roboto";
     color: white;
     font-size: 30px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -83,9 +83,9 @@
     padding: 2rem;
 }
 .presentacion{
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 20px;
 }
 .card{
-    font-family: Roboto;
+    font-family: "Roboto";
 }

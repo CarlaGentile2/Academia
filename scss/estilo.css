@@ -1,20 +1,6 @@
-
-@font-face {
-  font-family: AlexanderLetter;
-  src: url(../css/AlexanderLetter.otf);
+.boton{
+  font-family: "BebasRegular";
 }
-@font-face {
-  font-family: BebasRegular;
-  src: url(../css/BebasRegular.otf);
-}
-@font-face {
-  font-family: Roboto;
-  src: url(../css/RobotoRegular.ttf);
-}
-.boton {
-  font-family: BebasRegular;
-}
-
 .contenedor1 {
   background-image: url(../img/otrobanner.png);
   background-repeat: no-repeat;
@@ -25,19 +11,19 @@
   position: absolute;
 }
 .contenedor1 .texto1 .titulo {
-  font-family: AlexanderLetter;
+  font-family: "AlexanderLetter";
   font-size: 165px;
   top: 35%;
   left: 48%;
 }
 .contenedor1 .texto1 .subtitulo {
-  font-family: BebasRegular;
+  font-family: "BebasRegular";
   font-size: 55px;
   top: 55%;
   left: 30%;
 }
 .contenedor1 .texto1 .parrafo {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 25px;
 }
 .contenedor1 .texto1 .parrafo.parrafo1 {
@@ -50,14 +36,14 @@
 }
 
 .box1 {
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
 .contenedor2 {
   background-image: url(../img/escritoriogenerico2.png);
   background-repeat: no-repeat;
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 .contenedor2 .texto2 {
   position: absolute;
@@ -79,15 +65,15 @@
   background-image: url(../img/otrobannerinvertido.png);
   background-repeat: no-repeat;
   padding: 2rem;
-  font-family: Roboto;
+  font-family: "Roboto";
   color: white;
 }
 
 .presentacion {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
 }
 
 .card {
-  font-family: Roboto;
+  font-family: "Roboto";
 }/*# sourceMappingURL=estilo.css.map */

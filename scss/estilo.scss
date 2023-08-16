@@ -1,0 +1,95 @@
+
+@import url(./partials/_variables.scss);
+@import url(./partials/_reset.scss);
+
+.boton{
+    font-family: $fontBebas;
+}
+.contenedor1{
+    background-image: url(../img/otrobanner.png);
+    background-repeat: no-repeat;
+
+    .texto1{
+        text-align: center;
+        color: white;
+        position: absolute;
+
+        .titulo{
+            font-family: $fontAlex;
+            font-size: 165px;
+            top: 35%;
+            left: 48%;
+        }
+        
+        .subtitulo{
+            font-family: $fontBebas;
+            font-size: 55px;
+            top: 55%;
+            left: 30%;
+        }
+            
+        .parrafo{
+            font-family: $fontRob;
+            font-size: 25px;
+            
+            &.parrafo1{
+                top: 70%;
+                left: 40.5%;
+            }
+            
+            &.parrafo2{
+                top: 90%;
+                left: 45%;
+            }
+        }
+    }
+}
+.box1{
+    font-family: $fontRob;
+    background-color: darkorchid;
+    padding: auto;
+    -o-border-image:round;
+}
+.contenedor2{
+    background-image: url(../img/escritoriogenerico2.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: $fontRob;
+
+    .texto2{
+        position: absolute;
+        text-align: center;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+
+        .titulo1{
+            bottom: -25rem;
+            left: 15rem;
+            font-size: 60px;
+
+            .subtitulo1{
+                bottom: -33rem;
+                left: 18rem;
+                font-size: 30px;
+            }
+        }
+    }
+}
+.contenedor3{
+    background-image: url(../img/otrobannerinvertido.png);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    font-family: $fontRob;
+    color: white;
+}
+.presentacion{
+    font-family: $fontRob;
+    font-size: 20px;
+}
+.card{
+    font-family: $fontRob;
+}
+
+.box1:hover{
+    width: 25%;
+    background-color:darkturquoise;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carla Gentile - Nail Academy</title>
-    <meta name="description" content="Las capacitaciones mas completas para llevar tus habilidades a otro nivel.">
+    <meta name="description" content="Las formacion mas completa para manicuras, que te ayudaran a llevar tus habilidades a otro nivel.">
     <meta name="keywords" content="Cursos de uñas, Uñas esculpidas, Manicuria, Cursos Online de Uñas, Academia de Uñas, Manicura, Pedicuria, Salon de Uñas,">
     <link rel="shortcut icon" href="./img/logo.PNG"> 
      <link rel="stylesheet" href="./css/estilo.css">
@@ -30,13 +30,14 @@
 </ul>
 
     <!-- Nav Bar -->
-<ul class="d-flex justify-content-around align-items-center">
-    <li class="boton"><a href="./index.html">Inicio</a></li>
-    <li class="boton"><a href="./pages/sobremi.html">Sobre Mi</a></li>
-    <li class="boton"><a href="./pages/academia.html">Academia</a></li>
-    <li class="boton"><a href="./pages/servicios.html">Servicios</a></li>
-    <li class="boton"><a href="./pages/contacto.html">Contacto</a></li>
-    <li class="boton"><a class="ingreso" href="./pages/ingresar.html">Ingresar/Registrarse</a></li>
+<ul class="d-flex justify-content-around align-items-center" >
+  
+    <li class="boton"><a href="./index.html" class="btn btn-info active" aria-current="page">Inicio</a></li>
+    <li class="boton"><a href="./pages/sobremi.html" class="btn btn-info">Sobre Mi</a></li>
+    <li class="boton"><a href="./pages/academia.html" class="btn btn-info">Academia</a></li>
+    <li class="boton"><a href="./pages/servicios.html" class="btn btn-info">Servicios</a></li>
+    <li class="boton"><a href="./pages/contacto.html" class="btn btn-info">Contacto</a></li>
+    <li class="boton"><a href="./pages/ingresar.html" class="btn btn-info">Ingresar/Registrarse</a></li>
 </ul>
 
 </header>
@@ -46,7 +47,7 @@
 <!-- Banner 1 -->
 <div class="contenedor1" class="row">
     <img class="mifoto" class="col-4" src="./img/miasf2.png" alt="Fotocarla">
-    <div class="texto1" class="col-8" class="d-flex justify-content-center align-items-center">
+    <div class="texto1" class="col-8" >
         <h1 class="titulo">Academia Online</h1>
         <h2 class="subtitulo">Formacion para Profesionales</h2>
         <p class=" parrafo parrafo1">El lugar donde vas a poder adquirir todas las herramientas y conocimientos necesarios
@@ -69,11 +70,13 @@
 <br>
 
 <!-- Tarjetas 1 -->
+<div class="tarjetas">
 <ul class="row text-center">
     <li class="col-12 col-md-4 col-lg-4" class="box1">Cursos todos los Niveles</li>
     <li class="col-12 col-md-4 col-lg-4" class="box1">Servicios en salon</li>
     <li class="col-12 col-md-4 col-lg-4" class="box1">Asesoramiento personalizado</li>
 </ul>
+</div>
 <br>
 <br>
 
@@ -85,55 +88,56 @@
     </div>
 
 <!-- Formulario -->
-    <div container class="col-8" >
-    </div class="row justify-content-center">
+<div container class="formulario">
+</div class="row justify-content-center">
 <form class="row g-3">
-    <div class="col-md-2">
-      <label for="inputname" class="form-label">Tu Nombre</label>
-      <input type="name" class="form-control" id="inputname">
-    </div>
-    <div class="col-md-2">
-      <label for="inputnumber" class="form-label">Telefono</label>
-      <input type="number" class="form-control" id="inputnumber">
-    </div>
-    <div class="col-md-8"></div>
-    <div class="col-md-4">
-      <label for="inputemail" class="form-label">E-mail</label>
-      <input type="text" class="form-control" id="inputemail">
-    </div>
-    <div class="col-md-8"></div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">Consulta sobre:</label>
-      <select id="inputState" class="form-select">
-        <option selected>Cursos Online</option>
-        <option>Cursos presenciales</option>
-        <option>Cursos personalizados</option>
-        <option>Cursos para academias/ invitaciones</option>
-        <option>Servicios en salon</option>
-        <option>Otras consultas</option>
-      </select>
-    </div>
-    <div class="col-md-8"></div>
-    <div class="col-md-4">
-        <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    <div class="col-12"></div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-  </form>
+<div class="col-md-2">
+  <label for="inputname" class="form-label">Tu Nombre</label>
+  <input type="name" class="form-control" id="inputname">
 </div>
-        </div>
-    </div>
+<div class="col-md-2">
+  <label for="inputnumber" class="form-label">Telefono</label>
+  <input type="number" class="form-control" id="inputnumber">
+</div>
+<div class="col-md-8"></div>
+<div class="col-md-4">
+  <label for="inputemail" class="form-label">E-mail</label>
+  <input type="text" class="form-control" id="inputemail">
+</div>
+<div class="col-md-8"></div>
+<div class="col-md-4">
+  <label for="inputState" class="form-label">Consulta sobre:</label>
+  <select id="inputState" class="form-select">
+    <option selected>Cursos Online</option>
+    <option>Cursos presenciales</option>
+    <option>Cursos personalizados</option>
+    <option>Cursos para academias/ invitaciones</option>
+    <option>Servicios en salon</option>
+    <option>Otras consultas</option>
+  </select>
+</div>
+<div class="col-md-8"></div>
+<div class="col-md-4">
+    <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+<div class="col-12"></div>
+<div class="col-12">
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</div>
+</form>
+</div>
+</div>
 <br>
 <br>
     <!-- Tarjetas 2 -->
+    <div class="tarjetas">
 <ul class="row text-center">
     <li class="col-12 col-md-4 col-lg-4" class="box1">+1000 Alumnos Graduados</li>
     <li class="col-12 col-md-4 col-lg-4" class="box1">+2000 Horas de Clase</li>
     <li class="col-12 col-md-4 col-lg-4" class="box1">+13 Años de Experiencia</li>
 </ul>
+</div>
 <br>
 <br>
 
@@ -182,7 +186,7 @@
     </ul>
     <br>
     <div class="bottom-footer text-center">
-        <p>© Copyright 2023. "Academia de Porfesionales" by Carla Gentile. All rights reserved</p>
+        <p>© Copyright 2023. "Academia de Profesionales" by Carla Gentile. All rights reserved</p>
     </div>
 </div>
 

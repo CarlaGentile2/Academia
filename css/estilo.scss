@@ -1,63 +1,62 @@
 
-@import url(./partials/_variables.scss);
-@import url(./partials/_reset.scss);
+@font-face {
+    font-family: "AlexanderLetter";
+    src: url(../css/AlexanderLetter.otf);
+}
+@font-face {
+    font-family: "BebasRegular";
+    src: url(../css/BebasRegular.otf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../css/RobotoRegular.ttf);
+}
 
 .boton{
-    font-family: $fontBebas;
-}
+    font-family: "BebasRegular";
+    }
 .contenedor1{
+    display: flex;
+    align-items: center;
     background-image: url(../img/otrobanner.png);
     background-repeat: no-repeat;
+    
+}
 
     .texto1{
         text-align: center;
         color: white;
-        position: absolute;
-
+        justify-content: center;
+        padding: 10px 10px 10px 10px;
+               
         .titulo{
-            font-family: $fontAlex;
+            font-family: "AlexanderLetter";
             font-size: 165px;
-            top: 35%;
-            left: 48%;
         }
         
         .subtitulo{
-            font-family: $fontBebas;
+            font-family: "BebasRegular";
             font-size: 55px;
-            top: 55%;
-            left: 30%;
         }
             
         .parrafo{
-            font-family: $fontRob;
+            font-family: "Roboto";
             font-size: 25px;
-            
-            &.parrafo1{
-                top: 70%;
-                left: 40.5%;
-            }
-            
-            &.parrafo2{
-                top: 90%;
-                left: 45%;
-            }
         }
+        
     }
-}
 .box1{
-    font-family: $fontRob;
+    font-family: "Roboto";
     background-color: darkorchid;
     padding: auto;
-    -o-border-image:round;
 }
 .contenedor2{
     background-image: url(../img/escritoriogenerico2.png);
     background-repeat: no-repeat;
     color: white;
-    font-family: $fontRob;
+    font-family: "Roboto";
 
     .texto2{
-        position: absolute;
         text-align: center;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
 
@@ -74,19 +73,27 @@
         }
     }
 }
+
 .contenedor3{
     background-image: url(../img/otrobannerinvertido.png);
     background-repeat: no-repeat;
     padding: 2rem;
-    font-family: $fontRob;
+    font-family: "Roboto";
     color: white;
 }
 .presentacion{
-    font-family: $fontRob;
+    font-family: "Roboto";
     font-size: 20px;
 }
+.tarjetas{
+    font-family: "BebasRegular";
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+
 .card{
-    font-family: $fontRob;
+    font-family: "Roboto";
 }
 
 .box1:hover{

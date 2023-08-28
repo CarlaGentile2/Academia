@@ -1,66 +1,58 @@
-
 @font-face {
-  font-family: AlexanderLetter;
+  font-family: "AlexanderLetter";
   src: url(../css/AlexanderLetter.otf);
 }
 @font-face {
-  font-family: BebasRegular;
+  font-family: "BebasRegular";
   src: url(../css/BebasRegular.otf);
 }
 @font-face {
-  font-family: Roboto;
+  font-family: "Roboto";
   src: url(../css/RobotoRegular.ttf);
 }
 .boton {
-  font-family: BebasRegular;
+  font-family: "BebasRegular";
 }
 
 .contenedor1 {
+  display: flex;
+  align-items: center;
   background-image: url(../img/otrobanner.png);
   background-repeat: no-repeat;
 }
-.contenedor1 .texto1 {
+
+.texto1 {
   text-align: center;
   color: white;
-  position: absolute;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
 }
-.contenedor1 .texto1 .titulo {
-  font-family: AlexanderLetter;
+.texto1 .titulo {
+  font-family: "AlexanderLetter";
   font-size: 165px;
-  top: 35%;
-  left: 48%;
 }
-.contenedor1 .texto1 .subtitulo {
-  font-family: BebasRegular;
+.texto1 .subtitulo {
+  font-family: "BebasRegular";
   font-size: 55px;
-  top: 55%;
-  left: 30%;
 }
-.contenedor1 .texto1 .parrafo {
-  font-family: Roboto;
+.texto1 .parrafo {
+  font-family: "Roboto";
   font-size: 25px;
-}
-.contenedor1 .texto1 .parrafo.parrafo1 {
-  top: 70%;
-  left: 40.5%;
-}
-.contenedor1 .texto1 .parrafo.parrafo2 {
-  top: 90%;
-  left: 45%;
 }
 
 .box1 {
-  font-family: Roboto;
+  font-family: "Roboto";
+  background-color: darkorchid;
+  padding: auto;
 }
 
 .contenedor2 {
   background-image: url(../img/escritoriogenerico2.png);
   background-repeat: no-repeat;
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 .contenedor2 .texto2 {
-  position: absolute;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -79,15 +71,27 @@
   background-image: url(../img/otrobannerinvertido.png);
   background-repeat: no-repeat;
   padding: 2rem;
-  font-family: Roboto;
+  font-family: "Roboto";
   color: white;
 }
 
 .presentacion {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
 }
 
+.tarjetas {
+  font-family: "BebasRegular";
+  font-size: 25px;
+  background-color: blueviolet;
+  color: white;
+}
+
 .card {
-  font-family: Roboto;
+  font-family: "Roboto";
+}
+
+.box1:hover {
+  width: 25%;
+  background-color: darkturquoise;
 }/*# sourceMappingURL=estilo.css.map */
